@@ -108,3 +108,44 @@ header, main, footer{
     margin: 0 auto;
 }
 
+header{
+    text-align: center;
+    padding: 2rem 0 1rem;
+}
+
+header > p{
+    color: var(--white);
+    font-style: italic;
+    padding: 1rem 0 2.5rem;
+}
+
+nav{
+    background-color: var(--yellow);
+    padding: 1rem 0;
+}
+
+nav > h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    padding: .75rem 1.5rem;
+}
+
+nav li{
+    background-color: var(--white);
+    padding: 1rem 0;
+}
+
+nav a{
+    color: var(--purple);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+

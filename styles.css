@@ -1,33 +1,8 @@
 /* CSS BY Lily Teodorovich */
 
 /* IMPORTED FONTS */
-h1, h2{
-    font-family: Kavoon;
-}
 
-*{
-    font-family: Inter;
-}
-
-h1{
-    font-size: 3em;
-}
-
-nav h2{
-    font-size: 1.5em;
-}
-
-h2{
-    font-size: 2em;
-}
-
-h3{
-    font-size: 1.5em;
-}
-
-h4{
-    font-size: 1.15em;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
 /* CSS RESET */
 
@@ -82,4 +57,42 @@ table {
 
 /* ROOT VARIABLES */
 
+:root{
+    --teal: #4CA7C0;
+    --purple: #484FB7;
+    --lavender: #6B8FE7;
+    --yellow: #E9BB57;
+    --pink: #D9526F;
+    --dark-gray: #1E1E1E;
+    --white: #ffffff;
+}
+
 /* GLOBAL STYLES */
+
+h1, h2{
+    font-family: Kavoon;
+}
+
+*{
+    font-family: Inter;
+}
+
+h1{
+    font-size: 3em;
+}
+
+nav h2{
+    font-size: 1.5em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+h4{
+    font-size: 1.15em;
+}

@@ -71,6 +71,7 @@ table {
 
 h1, h2{
     font-family: Kavoon;
+    color: var(--white);
 }
 
 h3, h4, p, li, th, td {
@@ -96,3 +97,14 @@ h3{
 h4{
     font-size: 1.15em;
 }
+
+body{
+    background-color: var(--lavender);
+}
+
+header, main, footer{
+    background-color: var(--purple);
+    max-width: 450px;
+    margin: 0 auto;
+}
+

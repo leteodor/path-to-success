@@ -73,7 +73,7 @@ h1, h2{
     font-family: Kavoon;
 }
 
-*{
+h3, h4, p, li, th, td {
     font-family: Inter;
 }
 

@@ -128,13 +128,14 @@ header > p{
 
 nav{
     background-color: var(--yellow);
-    padding: 1rem 0;
+    padding: .5rem 0 .75rem 0;
 }
 
 nav > h3{
     text-transform: uppercase;
     font-weight: bold;
     font-style: italic;
+    color: var(--dark-gray);
 }
 
 nav ul{
@@ -154,6 +155,10 @@ nav a{
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
+}
+
+#services{
+    padding-bottom: 1rem;
 }
 
 #services section{
@@ -179,3 +184,50 @@ nav a{
 #services img{
     padding-bottom: .3rem;
 }
+
+#why{
+    background-color: var(--pink);
+}
+
+#why h2{
+    padding: 1rem;
+}
+
+#why section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 0 1rem 1rem;
+}
+
+.teal{
+    background-color: var(--teal);
+}
+
+.lavender{
+    background-color: var(--lavender);
+}
+
+.yellow{
+    background-color: var(--yellow);
+}
+
+.white{
+    background-color: var(--white);
+}
+
+#why div{
+    height: 6.5rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#why p{
+    width: 80%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.25rem;
+}
+

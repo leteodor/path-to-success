@@ -100,6 +100,9 @@ h3{
 
 h4{
     font-size: 1.15em;
+    color: var(--purple);
+    font-weight: bold;
+    padding: .5rem 0;
 }
 
 body{
@@ -157,10 +160,22 @@ nav a{
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
+    padding-bottom: .5rem;
 }
 
 #services div{
     background-color: var(--white);
     margin: 0 1.5rem;
     border-radius: 15px;
+    padding: 1.5rem;
+}
+
+#services p{
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--dark-gray);
+}
+
+#services img{
+    padding-bottom: .3rem;
 }

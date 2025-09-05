@@ -256,3 +256,32 @@ td{
     border: 2px solid var(--yellow);
 }
 
+#first{
+    background-color: var(--pink);
+}
+
+#first h2{
+    padding: 1rem 1rem .5rem 1rem;
+}
+
+#first p{
+    color: var(--white);
+    line-height: 1.5;
+    padding: 0 1rem .5rem;
+}
+
+#first a{
+    background-color: var(--white);
+    display: block;
+    width: 90%;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    border-radius: 15px;
+    filter: drop-shadow(5px 5px 2px var(--dark-gray));
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--dark-gray);
+    font-weight: bold;
+    margin: 0 auto;
+}

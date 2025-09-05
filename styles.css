@@ -256,21 +256,21 @@ td{
     border: 2px solid var(--yellow);
 }
 
-#first{
+#first-step{
     background-color: var(--pink);
 }
 
-#first h2{
+#first-step h2{
     padding: 1rem 1rem .5rem 1rem;
 }
 
-#first p{
+#first-step p{
     color: var(--white);
     line-height: 1.5;
     padding: 0 1rem .5rem;
 }
 
-#first a{
+#first-step a{
     background-color: var(--white);
     display: block;
     width: 90%;
@@ -285,3 +285,4 @@ td{
     font-weight: bold;
     margin: 0 auto;
 }
+

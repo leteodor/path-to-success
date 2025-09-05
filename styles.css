@@ -131,11 +131,13 @@ nav{
     padding: .5rem 0 .75rem 0;
 }
 
-nav > h3{
+nav > h2{
     text-transform: uppercase;
     font-weight: bold;
     font-style: italic;
     color: var(--dark-gray);
+    font-family: Inter;
+    padding-top: .5rem;
 }
 
 nav ul{
@@ -193,7 +195,7 @@ nav a{
     padding: 1rem;
 }
 
-#why section{
+#why > div{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
@@ -216,7 +218,7 @@ nav a{
     background-color: var(--white);
 }
 
-#why div{
+#reasons > div{
     height: 6.5rem;
     border-radius: 15px;
     display: flex;

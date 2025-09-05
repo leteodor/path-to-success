@@ -286,3 +286,21 @@ td{
     margin: 0 auto;
 }
 
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 6.5rem;
+    align-content: center;
+    text-align: center;
+    font-size: .8rem;
+    color: var(--white);
+}
+
+footer a{
+    color: var(--white);
+    padding-right: 3.5rem;
+}
+
+footer p:first-of-type{
+    padding-left: 2rem;
+}
